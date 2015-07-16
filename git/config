@@ -1,0 +1,22 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = false
+[remote "heroku"]
+	url = git@heroku.com:dashmote.git
+	
+[user]
+	name = mattygug
+
+[remote "origin"]
+	url = https://github.com/mattygug/dashmote-rail
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[branch "css_tweaks"]
+	remote = origin
+	merge = refs/heads/css_tweaks
